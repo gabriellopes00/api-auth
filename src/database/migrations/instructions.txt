@@ -1,0 +1,3 @@
+To create a new migration use => yarn typeorm  migration:create -n migration_name.
+After you will config your migration and after execute the command => yarn typeorm migration:run, t run your migration and create your table
+If you want to revert the migration, use yarn typeorm migration:revert
